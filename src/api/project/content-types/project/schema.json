@@ -38,6 +38,10 @@
     },
     "pull_quote": {
       "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
