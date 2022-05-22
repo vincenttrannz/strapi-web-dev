@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_extra_type_texts",
+  "info": {
+    "displayName": "TypeText",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_extra_skills",
+  "info": {
+    "displayName": "Skill",
+    "icon": "dragon"
+  },
+  "options": {},
+  "attributes": {
+    "DataIcon": {
+      "type": "string",
+      "required": true
+    },
+    "SkillTitle": {
+      "type": "string",
+      "required": true
+    },
+    "SkillDescription": {
+      "type": "text"
+    }
+  }
+}

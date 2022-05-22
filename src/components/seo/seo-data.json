@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_seo_seo_data",
+  "info": {
+    "displayName": "SeoData",
+    "icon": "window-maximize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MetaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "MetaDescription": {
+      "type": "string",
+      "required": true
+    },
+    "ShareImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
