@@ -20,9 +20,6 @@
         "images"
       ]
     },
-    "AboutSectionDescription": {
-      "type": "richtext"
-    },
     "AboutCV": {
       "type": "media",
       "multiple": false,
@@ -43,6 +40,9 @@
       "component": "extra.type-text",
       "min": 1,
       "required": true
+    },
+    "AboutSectionDescription": {
+      "type": "richtext"
     }
   }
 }
