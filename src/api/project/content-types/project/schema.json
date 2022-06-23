@@ -33,11 +33,8 @@
       "type": "string",
       "required": false
     },
-    "project_stacks": {
-      "type": "json"
-    },
     "pull_quote": {
-      "type": "string"
+      "type": "text"
     },
     "slug": {
       "type": "uid",
@@ -48,6 +45,11 @@
       "relation": "manyToOne",
       "target": "api::location.location",
       "inversedBy": "projects"
+    },
+    "technologies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technology.technology"
     }
   }
 }
