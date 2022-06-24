@@ -50,6 +50,13 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::technology.technology"
+    },
+    "project_thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
