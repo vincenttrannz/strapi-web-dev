@@ -52,11 +52,15 @@
       "target": "api::technology.technology"
     },
     "project_thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "project_highlights": {
+      "type": "text"
     }
   }
 }
