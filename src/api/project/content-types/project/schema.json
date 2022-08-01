@@ -61,6 +61,13 @@
     },
     "project_highlights": {
       "type": "text"
+    },
+    "project_intro_video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
